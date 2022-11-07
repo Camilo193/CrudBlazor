@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Documents\CarvajalBack\Application.Interfaces\Application.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\..\..\Documents\CarvajalBack\Application.Main\Application.Main.csproj" />
+    <ProjectReference Include="..\..\..\..\..\Documents\CarvajalBack\Entity\Entity.csproj" />
+    <ProjectReference Include="..\Client\Carvajal.Services.Client.csproj" />
+    <ProjectReference Include="..\Shared\Carvajal.Services.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>

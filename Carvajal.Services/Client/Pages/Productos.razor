@@ -1,0 +1,69 @@
+﻿@page "/Productos"
+@using Carvajal.Services.Shared
+@inject HttpClient Http
+@inject IProductoService ProductoService
+@inject NavigationManager NavigationManager
+@inject IToastService toastService
+
+<PageTitle>Procuctos</PageTitle>
+<h3>Procuctos</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descripcion</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in ProductoService.Productos)
+        {
+            <tr>
+                <td>@producto.Id</td>
+                <td>@producto.Descripcion</td>
+                <td>@producto.Valor</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="(() => MostrarProducto(producto.Id))"><i class="oi oi-pencil"></i></button>
+                    <button type="button" class="btn btn-danger" @onclick="(() =>EliminarProducto(producto.Id))">Eliminar producto</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button class="btn btn-primary" @onclick="CrearProducto">Crear producto</button>
+
+
+@code {
+    Producto producto = new Producto();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ProductoService.ObtenerProductos();
+    }
+
+    void MostrarProducto(int id)
+    {
+        NavigationManager.NavigateTo($"ProductoDetalle/{id}");
+    }
+
+    void CrearProducto()
+    {
+        NavigationManager.NavigateTo("/ProductoDetalle");
+    }
+
+    async Task EliminarProducto(int id)
+    {
+        var response = await ProductoService.EliminarProducto(id);
+        if (response.IsSuccess)
+        {
+            this.toastService.ShowSuccess(message: "Producto eliminado", "Exito");
+        }
+        else 
+        {
+            this.toastService.ShowError("No se puede eliminar este producto porque está en un pedido", "error");
+        }
+
+    }
+    
+}

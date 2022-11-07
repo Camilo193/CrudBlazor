@@ -1,0 +1,12 @@
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\bin\Debug\net6.0\Carvajal.Services.Shared.deps.json
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\bin\Debug\net6.0\Carvajal.Services.Shared.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\bin\Debug\net6.0\Carvajal.Services.Shared.pdb
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\Carvajal.Services.Shared.csproj.AssemblyReference.cache
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\Carvajal.Services.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\Carvajal.Services.Shared.AssemblyInfoInputs.cache
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\Carvajal.Services.Shared.AssemblyInfo.cs
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\Carvajal.Services.Shared.csproj.CoreCompileInputs.cache
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\Carvajal.Services.Shared.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\refint\Carvajal.Services.Shared.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\Carvajal.Services.Shared.pdb
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Shared\obj\Debug\net6.0\ref\Carvajal.Services.Shared.dll
