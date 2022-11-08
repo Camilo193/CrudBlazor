@@ -14,8 +14,11 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Carvajal.Services.Server.runtimeconfig.json
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Carvajal.Services.Server.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Carvajal.Services.Server.pdb
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -69,13 +72,13 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Entity.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Application.Interfaces.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Application.Main.pdb
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Entity.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Carvajal.Services.Client.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Carvajal.Services.Shared.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Application.Response.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\ApplicationDTO.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Blazored.Toast.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Domain.Repository.pdb
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Entity.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\Carvajal.Services.Server.csproj.AssemblyReference.cache
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\Carvajal.Services.Server.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\Carvajal.Services.Server.AssemblyInfoInputs.cache
@@ -93,6 +96,3 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\Carvajal.Services.Server.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\Carvajal.Services.Server.genruntimeconfig.cache
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\ref\Carvajal.Services.Server.dll
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
