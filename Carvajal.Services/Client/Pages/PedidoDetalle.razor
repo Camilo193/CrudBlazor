@@ -2,6 +2,7 @@
 @page "/PedidoDetalle/{id:int}"
 @inject IPedidoService PedidoService
 @inject IToastService toastService
+@attribute [Authorize]
 
 @if (Id == null)
 {

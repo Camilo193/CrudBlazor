@@ -4,7 +4,6 @@ global using Microsoft.AspNetCore.Components.Authorization;
 using Blazored.LocalStorage;
 using Blazored.Toast;
 using Carvajal.Services.Client;
-using Carvajal.Services.Client.Services;
 using Carvajal.Services.Client.Shared;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
