@@ -72,6 +72,8 @@
         if (response.IsSuccess)
         {
             this.toastService.ShowSuccess(response.Message, "Exitoso");
+            var pedido = PedidoService.Pedidos.Where(x => x.Id == id).FirstOrDefault()!;
+            PedidoService.Pedidos.Remove(pedido);
         }
         else
         {

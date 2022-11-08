@@ -4,6 +4,7 @@ using Carvajal.Services.Server.Helpers;
 using Domain.Repository;
 using Entity.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -37,6 +38,8 @@ builder.Services.AddDbContext<PedidosContext>(options =>
 var key = Encoding.ASCII.GetBytes(appSettings.Secret);
 var IsSuer = appSettings.IsSuer;
 var Audience = appSettings.Audience;
+
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthentication(x =>
 {
@@ -88,6 +91,11 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Blazor API V1");
+    });
     app.UseWebAssemblyDebugging();
 }
 else

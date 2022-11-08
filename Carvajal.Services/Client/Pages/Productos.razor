@@ -63,6 +63,8 @@
         if (response.IsSuccess)
         {
             this.toastService.ShowSuccess(message: "Producto eliminado", "Exito");
+            var producto = ProductoService.Productos.Where(x => x.Id == id).FirstOrDefault()!;
+            ProductoService.Productos.Remove(producto);
         }
         else
         {

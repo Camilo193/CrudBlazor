@@ -45,6 +45,7 @@
             await LocalStorage.SetItemAsync("token", response.Data);
             await AuthStateProvider.GetAuthenticationStateAsync();
             this.toastService.ShowSuccess(response.Message, "Exitoso");
+            NavigationManager.NavigateTo("/");
         }
         else 
         {
