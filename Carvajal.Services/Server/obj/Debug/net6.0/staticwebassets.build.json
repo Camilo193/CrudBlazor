@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "47AzmjT5CysDL8VqrUF+kN8YZ9t5g3SrdcpZAdmZMZ8=",
+  "Hash": "rs8hxJHA97y2VfILZCIB+SEZWBdxdH3w94F4JKx2jYY=",
   "Source": "Carvajal.Services.Server",
   "BasePath": "_content/Carvajal.Services.Server",
   "Mode": "Default",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj",
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj",
       "Version": 2,
       "Source": "Blazored.Toast",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -33,7 +33,7 @@
     {
       "Name": "Blazored.Toast\\wwwroot",
       "Source": "Blazored.Toast",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\wwwroot\\",
       "BasePath": "_content/Blazored.Toast",
       "Pattern": "**"
     },
@@ -112,7 +112,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\bin\\Debug\\net6.0\\Blazored.Toast.dll"
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\bin\\Debug\\net6.0\\Blazored.Toast.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.pdb",
@@ -129,7 +129,7 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\bin\\Debug\\net6.0\\Blazored.Toast.pdb"
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\bin\\Debug\\net6.0\\Blazored.Toast.pdb"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Carvajal.Services.Client.dll",
@@ -3940,6 +3940,23 @@
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.dll"
     },
     {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\5vYuzncx.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.pdb"
+    },
+    {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\6QFBxjvF.gz",
       "SourceId": "Carvajal.Services.Client",
       "SourceType": "Project",
@@ -4703,6 +4720,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.TypeConverter.dll"
+    },
+    {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\ecTIXB5Y.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\Ede0ovoA.gz",
@@ -5946,23 +5980,6 @@
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Carvajal.Services.Client.dll"
     },
     {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\PElJQeZc.gz",
-      "SourceId": "Carvajal.Services.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Blazored.Toast.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.dll"
-    },
-    {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\pEVPaUEI.gz",
       "SourceId": "Carvajal.Services.Client",
       "SourceType": "Project",
@@ -6624,23 +6641,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Numerics.Vectors.dll"
-    },
-    {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\WMdTHXec.gz",
-      "SourceId": "Carvajal.Services.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Blazored.Toast.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.pdb"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\WNPqmG46.gz",
@@ -7323,10 +7323,10 @@
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Carvajal.Services.Server.styles.css"
     },
     {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazored.Toast.bundle.scp.css",
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazored.Toast.bundle.scp.css",
       "SourceId": "Blazored.Toast",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Blazored.Toast",
       "RelativePath": "Blazored.Toast.bundle.scp.css",
       "AssetKind": "All",
@@ -7337,13 +7337,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazored.Toast.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazored.Toast.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\wwwroot\\blazored-toast.css",
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\wwwroot\\blazored-toast.css",
       "SourceId": "Blazored.Toast",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\wwwroot\\",
       "BasePath": "_content/Blazored.Toast",
       "RelativePath": "blazored-toast.css",
       "AssetKind": "All",

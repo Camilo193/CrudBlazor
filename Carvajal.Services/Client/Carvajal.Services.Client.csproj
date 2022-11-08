@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Toast2\src\Blazored.Toast\Blazored.Toast.csproj" />
     <ProjectReference Include="..\Shared\Carvajal.Services.Shared.csproj" />
+    <ProjectReference Include="..\Toast\Blazored.Toast.csproj" />
   </ItemGroup>
 
 </Project>

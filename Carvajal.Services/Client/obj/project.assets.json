@@ -1894,8 +1894,8 @@
     },
     "Blazored.Toast/1.0.0": {
       "type": "project",
-      "path": "../../../Toast2/src/Blazored.Toast/Blazored.Toast.csproj",
-      "msbuildProject": "../../../Toast2/src/Blazored.Toast/Blazored.Toast.csproj"
+      "path": "../Toast/Blazored.Toast.csproj",
+      "msbuildProject": "../Toast/Blazored.Toast.csproj"
     },
     "Carvajal.Services.Shared/1.0.0": {
       "type": "project",
@@ -1947,8 +1947,8 @@
             "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Shared\\Carvajal.Services.Shared.csproj": {
               "projectPath": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Shared\\Carvajal.Services.Shared.csproj"
             },
-            "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj": {
-              "projectPath": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj"
+            "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj": {
+              "projectPath": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj"
             }
           }
         }

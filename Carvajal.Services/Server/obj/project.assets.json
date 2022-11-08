@@ -2928,8 +2928,8 @@
     },
     "Blazored.Toast/1.0.0": {
       "type": "project",
-      "path": "../../../Toast2/src/Blazored.Toast/Blazored.Toast.csproj",
-      "msbuildProject": "../../../Toast2/src/Blazored.Toast/Blazored.Toast.csproj"
+      "path": "../Toast/Blazored.Toast.csproj",
+      "msbuildProject": "../Toast/Blazored.Toast.csproj"
     },
     "Carvajal.Services.Client/1.0.0": {
       "type": "project",

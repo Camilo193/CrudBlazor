@@ -807,9 +807,7 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\2iBfpEwi.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\dsu27pNE.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\hxe1lP8U.gz
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\PElJQeZc.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\2CnEuMHt.gz
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\WMdTHXec.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\hq3WsvcG.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\p4QbV5ue.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\tj7Dxf+N.gz
@@ -838,3 +836,5 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\FP7cDJwN.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\V0izMtLI.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\V1RE+wrd.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\ecTIXB5Y.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\5vYuzncx.gz

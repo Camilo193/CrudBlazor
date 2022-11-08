@@ -441,8 +441,8 @@
               "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Shared\\Carvajal.Services.Shared.csproj": {
                 "projectPath": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Shared\\Carvajal.Services.Shared.csproj"
               },
-              "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj": {
-                "projectPath": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj"
+              "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj": {
+                "projectPath": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj"
               }
             }
           }
@@ -648,14 +648,14 @@
         }
       }
     },
-    "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj": {
+    "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj",
+        "projectUniqueName": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj",
         "projectName": "Blazored.Toast",
-        "projectPath": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\Blazored.Toast.csproj",
+        "projectPath": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\Blazored.Toast.csproj",
         "packagesPath": "C:\\Users\\juank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juank\\source\\repos\\Toast2\\src\\Blazored.Toast\\obj\\",
+        "outputPath": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Toast\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
