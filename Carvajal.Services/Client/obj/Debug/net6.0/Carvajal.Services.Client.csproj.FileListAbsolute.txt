@@ -829,6 +829,7 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\blazor.boot.json
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\scopedcss\Shared\LoginLogoutButton.razor.rz.scp.css
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\scopedcss\bundle\Carvajal.Services.Client.styles.css

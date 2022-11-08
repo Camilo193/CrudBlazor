@@ -200,7 +200,7 @@
       "System.Private.CoreLib.dll": "sha256-jECkJy2Sjpl59QEL3nO3p8nwKGXvnJpXaKQF\/+MTw04=",
       "Blazored.Toast.dll": "sha256-1SQMDY66weMYKBLJ63w7Mwlw00\/YsORpLBbH8zjLcb0=",
       "Carvajal.Services.Shared.dll": "sha256-uDk0FqIZW3xaKr0f2I1AgltO2hdbcSe2IiZygRSQ5AU=",
-      "Carvajal.Services.Client.dll": "sha256-wx7TreReP2N5GvwfQjbGqMh12Xk5RxmLZYO8Ma\/dMZo="
+      "Carvajal.Services.Client.dll": "sha256-5V639rIFuvfcJkah8acEOJ0Aq81rZZbdXBsO7d93ZyU="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -208,7 +208,7 @@
     "pdb": {
       "Carvajal.Services.Shared.pdb": "sha256-Z7+Up8FBrMwA7f+SLj0Jykt0BubQyMWnMrFy464fMeI=",
       "Blazored.Toast.pdb": "sha256-q1KnBt42GJAyylMD5\/kAfptMyGZIXrXib3KjA7OtS7o=",
-      "Carvajal.Services.Client.pdb": "sha256-1CcBhImG5dsjeAM3MRODrkC5GoQLZ4yxQsXIZEjUlvo="
+      "Carvajal.Services.Client.pdb": "sha256-rp3wNeA4BvOYbHAn1OjFB28XyJbw\/zghvr1hCWNw3n4="
     },
     "runtime": {
       "dotnet.6.0.10.dmw34w0e7u.js": "sha256-KtM3Wrooexmrt5NmqvZfWoDPtNIe6wZqLopR6ToqUPg=",

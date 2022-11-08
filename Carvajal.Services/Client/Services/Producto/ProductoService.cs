@@ -14,7 +14,6 @@ namespace Carvajal.Services.Client.Services
         }
         public ICollection<Producto> Productos { get; set; }
         public Producto Producto { get; set; }
-        public bool Exitoso { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public Response<object> Respuesta { get; set; }
 
         public async Task<Response<object>> ActualizarProducto(Producto producto)

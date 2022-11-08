@@ -4,35 +4,40 @@
 @inject IProductoService ProductoService
 @inject NavigationManager NavigationManager
 @inject IToastService toastService
+@attribute [Authorize]
 
 <PageTitle>Procuctos</PageTitle>
 <h3>Procuctos</h3>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Descripcion</th>
-            <th>Valor</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var producto in ProductoService.Productos)
-        {
+<Authorized>
+    <table class="table">
+        <thead>
             <tr>
-                <td>@producto.Id</td>
-                <td>@producto.Descripcion</td>
-                <td>@producto.Valor</td>
-                <td>
-                    <button class="btn btn-primary" @onclick="(() => MostrarProducto(producto.Id))"><i class="oi oi-pencil"></i></button>
-                    <button class="btn btn-danger" @onclick="(() => EliminarProducto(producto.Id))"><i class="oi oi-trash"></i></button>
-                </td>
+                <th>Id</th>
+                <th>Descripcion</th>
+                <th>Valor</th>
             </tr>
-        }
-    </tbody>
-</table>
-<button class="btn btn-primary" @onclick="CrearProducto">Crear producto</button>
-
+        </thead>
+        <tbody>
+            @foreach (var producto in ProductoService.Productos)
+            {
+                <tr>
+                    <td>@producto.Id</td>
+                    <td>@producto.Descripcion</td>
+                    <td>@producto.Valor</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="(() => MostrarProducto(producto.Id))"><i class="oi oi-pencil"></i></button>
+                        <button class="btn btn-danger" @onclick="(() => EliminarProducto(producto.Id))"><i class="oi oi-trash"></i></button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button class="btn btn-primary" @onclick="CrearProducto">Crear producto</button>
+</Authorized>
+<NotAuthorized>
+    <span>.</span>
+</NotAuthorized>
 
 @code {
     Producto producto = new Producto();
@@ -59,11 +64,11 @@
         {
             this.toastService.ShowSuccess(message: "Producto eliminado", "Exito");
         }
-        else 
+        else
         {
             this.toastService.ShowError("No se puede eliminar este producto porque está en un pedido", "error");
         }
 
     }
-    
+
 }
