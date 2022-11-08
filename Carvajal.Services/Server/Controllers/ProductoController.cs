@@ -1,6 +1,6 @@
 ﻿using Application.Interfaces;
-using Carvajal.Services.Shared;
-//using Entity.Models;
+//using Carvajal.Services.Shared;
+using Entity.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +9,7 @@ namespace Carvajal.Services.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductoController : ControllerBase
     {
         private readonly IProductoApplication _productoApplication;

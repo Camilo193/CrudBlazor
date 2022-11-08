@@ -32,7 +32,8 @@
                 <td>@pedido.Total</td>
                 <td>
                     <button class="btn btn-primary" @onclick="(() => MostrarPedido(pedido.Id))"><i class="oi oi-pencil"></i></button>
-                    <button type="button" class="btn btn-danger" @onclick="(() =>EliminarPedido(pedido.Id))">Eliminar pedido</button>
+                    <button class="btn btn-danger" @onclick="(() => EliminarPedido(pedido.Id))"><i class="oi oi-trash"></i></button>
+                    
                 </td>
             </tr>
         }

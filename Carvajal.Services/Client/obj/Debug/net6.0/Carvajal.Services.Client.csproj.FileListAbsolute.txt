@@ -615,12 +615,9 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\Carvajal.Services.Client.AssemblyInfo.cs
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\Carvajal.Services.Client.csproj.CoreCompileInputs.cache
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\Carvajal.Services.Client.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\iBW4ZXyE.gz
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\B70sSdSm.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\2k8Xjr6y.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\yJ+G5SZ7.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\ZnZ+WQEl.gz
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\zdwtibu6.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\q+yC7D+i.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\IQkeSaRt.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\byUp+z4q.gz
@@ -632,7 +629,6 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\jQJcSEH2.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\CCY3RvxL.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\f5XpKd+N.gz
-C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\IcO0kdwb.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\FDzEJ2F2.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\dT8E3524.gz
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\N0DJOOLh.gz
@@ -830,3 +826,15 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\refint\Carvajal.Services.Client.dll
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\Carvajal.Services.Client.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\ref\Carvajal.Services.Client.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\foCaMsFX.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\ldReCc9+.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\+iQv5Kjs.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\FP7cDJwN.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\V0izMtLI.gz
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Client\obj\Debug\net6.0\build-gz\V1RE+wrd.gz

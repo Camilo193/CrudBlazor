@@ -25,7 +25,7 @@
                 <td>@producto.Valor</td>
                 <td>
                     <button class="btn btn-primary" @onclick="(() => MostrarProducto(producto.Id))"><i class="oi oi-pencil"></i></button>
-                    <button type="button" class="btn btn-danger" @onclick="(() =>EliminarProducto(producto.Id))">Eliminar producto</button>
+                    <button class="btn btn-danger" @onclick="(() => EliminarProducto(producto.Id))"><i class="oi oi-trash"></i></button>
                 </td>
             </tr>
         }

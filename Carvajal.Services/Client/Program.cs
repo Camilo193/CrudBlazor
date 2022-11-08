@@ -1,7 +1,10 @@
 global using Carvajal.Services.Client.Services;
 global using Carvajal.Services.Shared;
+global using Microsoft.AspNetCore.Components.Authorization;
+using Blazored.LocalStorage;
 using Blazored.Toast;
 using Carvajal.Services.Client;
+using Carvajal.Services.Client.Shared;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -13,6 +16,9 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddScoped<IProductoService, ProductoService>();
 builder.Services.AddScoped<IPedidoService, PedidoService>();
 
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
 builder.Services.AddBlazoredToast();
+builder.Services.AddAuthorizationCore();
+builder.Services.AddBlazoredLocalStorage();
 
 await builder.Build().RunAsync();

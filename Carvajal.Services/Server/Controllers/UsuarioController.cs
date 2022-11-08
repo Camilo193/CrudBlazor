@@ -1,8 +1,8 @@
 ﻿using Application.Interfaces;
-//using Application.Response;
+using Application.Response;
 using Carvajal.Services.Server.Helpers;
-using Carvajal.Services.Shared;
-//using Entity.Models;
+//using Carvajal.Services.Shared;
+using Entity.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,7 +14,7 @@ using System.Text;
 
 namespace Carvajal.Services.Server.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
     //[Authorize]
     public class UsuarioController : ControllerBase
@@ -36,8 +36,8 @@ namespace Carvajal.Services.Server.Controllers
 
             if (response.IsSuccess)
             {
-                response.Token = BuildToken(response);
-                return Ok(response);
+                response.Token = BuildToken();
+                return Ok(response.Token);
             }
             else
             {
@@ -46,22 +46,22 @@ namespace Carvajal.Services.Server.Controllers
 
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CrearUsuario([FromBody] Usuario Usuario)
-        {
+        //[HttpPost]
+        //public async Task<IActionResult> CrearUsuario([FromBody] Usuario Usuario)
+        //{
 
-            var response = await _UsuarioApplication.CreateUsuario(Usuario);
+        //    var response = await _UsuarioApplication.CreateUsuario(Usuario);
 
-            if (response.IsSuccess)
-            {
-                return Ok(response);
-            }
-            else
-            {
-                return BadRequest(response);
-            }
+        //    if (response.IsSuccess)
+        //    {
+        //        return Ok(response);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(response);
+        //    }
 
-        }
+        //}
 
         [HttpPut]
         public async Task<IActionResult> ActualizarUsuario([FromBody] Usuario Usuario)
@@ -95,17 +95,12 @@ namespace Carvajal.Services.Server.Controllers
         }
 
         #region Private methods
-        private string BuildToken(Response<Usuario> usuario)
+        private string BuildToken()
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                    new Claim(ClaimTypes.NameIdentifier, usuario.Data.Id.ToString()),
-                    new Claim(ClaimTypes.Name, usuario.Data.Nombre)
-                }),
                 Expires = DateTime.UtcNow.AddDays(5),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha512Signature),
                 Issuer = _appSettings.IsSuer,

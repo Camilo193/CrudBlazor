@@ -457,6 +457,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -531,9 +539,6 @@
               "C:\\Users\\juank\\Documents\\CarvajalBack\\Application.Main\\Application.Main.csproj": {
                 "projectPath": "C:\\Users\\juank\\Documents\\CarvajalBack\\Application.Main\\Application.Main.csproj"
               },
-              "C:\\Users\\juank\\Documents\\CarvajalBack\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\juank\\Documents\\CarvajalBack\\Entity\\Entity.csproj"
-              },
               "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\Carvajal.Services.Client.csproj": {
                 "projectPath": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\Carvajal.Services.Client.csproj"
               },
@@ -553,6 +558,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[6.0.10, )"

@@ -93,3 +93,6 @@ C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\Carvajal.Services.Server.pdb
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\Carvajal.Services.Server.genruntimeconfig.cache
 C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\obj\Debug\net6.0\ref\Carvajal.Services.Server.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\juank\source\repos\Carvajal.Services\Carvajal.Services\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll

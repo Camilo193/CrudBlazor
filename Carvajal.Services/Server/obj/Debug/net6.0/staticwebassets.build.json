@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eN1sk9BaFxxvzwKIxv29itaDF/daXr+ZR0KIrVds8CA=",
+  "Hash": "47AzmjT5CysDL8VqrUF+kN8YZ9t5g3SrdcpZAdmZMZ8=",
   "Source": "Carvajal.Services.Server",
   "BasePath": "_content/Carvajal.Services.Server",
   "Mode": "Default",
@@ -79,6 +79,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.10\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\blazored.localstorage\\4.2.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Toast.dll",
@@ -316,7 +333,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -333,7 +367,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -401,7 +435,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.11\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -605,7 +639,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\juank\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -3532,6 +3566,23 @@
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Tools.dll"
     },
     {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\+iQv5Kjs.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\+QwvM70e.gz",
       "SourceId": "Carvajal.Services.Client",
       "SourceType": "Project",
@@ -4176,23 +4227,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ServiceProcess.dll"
-    },
-    {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\B70sSdSm.gz",
-      "SourceId": "Carvajal.Services.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\bBktb2cu.gz",
@@ -4858,6 +4892,23 @@
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.ResourceManager.dll"
     },
     {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\foCaMsFX.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
+    },
+    {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\fOv5BDeX.gz",
       "SourceId": "Carvajal.Services.Client",
       "SourceType": "Project",
@@ -4890,6 +4941,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.dll"
+    },
+    {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\FP7cDJwN.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\fsXjO9Z6.gz",
@@ -5283,40 +5351,6 @@
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XDocument.dll"
     },
     {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\iBW4ZXyE.gz",
-      "SourceId": "Carvajal.Services.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\IcO0kdwb.gz",
-      "SourceId": "Carvajal.Services.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\icV2Rh1+.gz",
       "SourceId": "Carvajal.Services.Client",
       "SourceType": "Project",
@@ -5587,6 +5621,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\ldReCc9+.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\M+e5ArW+.gz",
@@ -6405,6 +6456,40 @@
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.HttpListener.dll"
     },
     {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\V0izMtLI.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\V1RE+wrd.gz",
+      "SourceId": "Carvajal.Services.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\vDPPxvVX.gz",
       "SourceId": "Carvajal.Services.Client",
       "SourceType": "Project",
@@ -6862,23 +6947,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowsBase.dll"
-    },
-    {
-      "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\zdwtibu6.gz",
-      "SourceId": "Carvajal.Services.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\juank\\source\\repos\\Carvajal.Services\\Carvajal.Services\\Client\\obj\\Debug\\net6.0\\build-gz\\ZnZ+WQEl.gz",
