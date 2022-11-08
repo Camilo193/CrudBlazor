@@ -36,8 +36,8 @@ namespace Carvajal.Services.Server.Controllers
 
             if (response.IsSuccess)
             {
-                response.Token = BuildToken();
-                return Ok(response.Token);
+                response.Data = BuildToken();
+                return Ok(response);
             }
             else
             {
@@ -46,22 +46,23 @@ namespace Carvajal.Services.Server.Controllers
 
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> CrearUsuario([FromBody] Usuario Usuario)
-        //{
+        [Route("[action]")]
+        [HttpPost]
+        public async Task<IActionResult> CrearUsuario([FromBody] Usuario Usuario)
+        {
 
-        //    var response = await _UsuarioApplication.CreateUsuario(Usuario);
+            var response = await _UsuarioApplication.CreateUsuario(Usuario);
 
-        //    if (response.IsSuccess)
-        //    {
-        //        return Ok(response);
-        //    }
-        //    else
-        //    {
-        //        return BadRequest(response);
-        //    }
+            if (response.IsSuccess)
+            {
+                return Ok(response);
+            }
+            else
+            {
+                return BadRequest(response);
+            }
 
-        //}
+        }
 
         [HttpPut]
         public async Task<IActionResult> ActualizarUsuario([FromBody] Usuario Usuario)

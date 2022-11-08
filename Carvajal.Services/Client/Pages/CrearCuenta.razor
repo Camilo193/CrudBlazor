@@ -1,14 +1,13 @@
-﻿@page "/Login"
+﻿@page "/CrearCuenta"
 @inject HttpClient Http
 @inject AuthenticationStateProvider AuthStateProvider
 @inject ILocalStorageService LocalStorage
-@inject NavigationManager NavigationManager
+@inject IUsuarioService UsuarioService
 @inject IToastService toastService
 
 <h3>Login</h3>
 
-
-<EditForm Model="@usuario" OnSubmit="HandleLogin">
+<EditForm Model="@usuario" OnSubmit="HandleSubmit">
     <div class="container-fluid">
         <div class="form-group row mb-1">
             <label class="col-sm-3">Nombre</label>
@@ -22,39 +21,24 @@
                 <InputText type="password" class="form-control" @bind-Value="@usuario.Password"></InputText>
             </div>
         </div>
-        <center>
-            <button type="submit" class="btn btn-primary">Entrar</button>
-            <button @onclick="CrearCuenta">Crear Usuario</button>
-        </center>
+        <button type="submit" class="btn btn-primary">Crear cuenta</button>
     </div>
 </EditForm>
-
-
-
 
 @code {
     Usuario usuario = new();
 
-    async Task HandleLogin()
+    async Task HandleSubmit()
     {
-        var result = await Http.PostAsJsonAsync("api/Usuario", usuario);
-        var exitoso = result.IsSuccessStatusCode;
-        if (exitoso)
+        var response = await UsuarioService.InsertarUsuario(usuario);
+
+        if (response.IsSuccess)
         {
-            var response = await result.Content.ReadFromJsonAsync<Response<string>>();
-            await LocalStorage.SetItemAsync("token", response.Data);
-            await AuthStateProvider.GetAuthenticationStateAsync();
             this.toastService.ShowSuccess(response.Message, "Exitoso");
         }
-        else 
+        else
         {
-            var response = await result.Content.ReadFromJsonAsync<Response<string>>();
             this.toastService.ShowError(response.Message, "Error");
         }
-    }
-
-    void CrearCuenta()
-    {
-        NavigationManager.NavigateTo("/CrearCuenta");
     }
 }

@@ -3,6 +3,7 @@
 @inject IProductoService ProductoService
 @inject IToastService toastService
 
+
 @if (Id == null)
 {
     <PageTitle>Crear producto</PageTitle>
@@ -40,7 +41,7 @@ else
 
     string btnText = string.Empty;
 
-    Producto producto = new Producto();
+    Producto producto = new();
 
     protected override async Task OnInitializedAsync()
     {

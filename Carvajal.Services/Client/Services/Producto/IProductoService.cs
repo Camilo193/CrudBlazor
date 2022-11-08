@@ -6,10 +6,10 @@
         Producto Producto { get; set; }
         Response<object> Respuesta { get; set; }
         Task ObtenerProductos();
-        Task<Response<Object>> InsertarProducto(Producto producto);
+        Task<Response<object>> InsertarProducto(Producto producto);
         Task<Producto> ObtenerProducto(int id);
-        Task<Response<Object>> ActualizarProducto(Producto producto);
-        Task<Response<Object>> EliminarProducto(int id);
+        Task<Response<object>> ActualizarProducto(Producto producto);
+        Task<Response<object>> EliminarProducto(int id);
 
     }
 }

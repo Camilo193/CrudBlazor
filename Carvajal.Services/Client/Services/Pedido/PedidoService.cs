@@ -14,9 +14,9 @@ namespace Carvajal.Services.Client.Services
             _http = http;
             _navigationManager = navigationManager;
         }
-        public ICollection<Pedido> Pedidos { get ; set ; }
-        public Pedido Pedido { get ; set ; }
-        public Response<object> Respuesta { get ; set ; }
+        public ICollection<Pedido> Pedidos { get; set; }
+        public Pedido Pedido { get; set; }
+        public Response<object> Respuesta { get; set; }
 
         public async Task<Response<object>> ActualizarPedido(Pedido pedido)
         {
@@ -51,9 +51,9 @@ namespace Carvajal.Services.Client.Services
                 Pedidos = result.Data;
         }
 
-        private async Task<Response<Object>> SetPedido(HttpResponseMessage result)
+        private async Task<Response<object>> SetPedido(HttpResponseMessage result)
         {
-            var response = await result.Content.ReadFromJsonAsync<Response<Object>>();
+            var response = await result.Content.ReadFromJsonAsync<Response<object>>();
             Respuesta = response;
             _navigationManager.NavigateTo("Pedidos");
             return Respuesta;
